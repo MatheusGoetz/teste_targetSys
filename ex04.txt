@@ -1,0 +1,26 @@
+// calculo de tempo de viagem do caminhão sem obstaculos
+
+tso = 100km  / 80km/h   =   1.25h
+
+// como ele perde 10 min (0.17h) nos pedágios isso é dará 1.25h + 0.17h = 1.42h, a velocidade media do caminhão será:
+
+v2  =   100km/1.42h =   70.6km/h
+
+// sendo assim:
+
+t = x1/v1
+
+t   =   x2 - 100km / -v2
+
+x1  =   x2  => x/v1 = x-100km/-v2
+
+-v2.x = v1.x - v1.100km
+
+
+x= v1.100km/v1 + v2 = 110km/h . 100km / 110km/h + 70.6km/h
+
+
+x =  60.9km
+
+
+// Ambos os veiculos estão a mesma distancia de Ribeirão Preto.
